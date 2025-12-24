@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NVN Urban Cafe</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- ✅ POP-UP STATUS -->
+<div id="openStatusPopup" class="status-popup"></div>
+<div id="openStatusPopup" class="status-popup"></div>
+
+<!-- ✅ FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/6281234567890" target="_blank" class="whatsapp-float">
+  <i class="bi bi-whatsapp"></i>
+</a>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+  <img src="img/NVN-LOGO-FIX-BANGET_page-0001-Photoroom.png" alt="NVN Urban Cafe" class="logo">
+</a>
+
+<!-- Tombol toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <!-- Menu (center) -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div class="navbar-shape">
+          <ul class="navbar-nav align-items-center justify-content-center h-100">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+             <li class="nav-item"><a class="nav-link" href="#review">Reviews</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item d-lg-none mt-2">
+             <a href="https://wa.me/085738657863?text=Halo%20NVN%20Urban%20Cafe,%20saya%20ingin%20melakukan%20reservasi." class="btn btn-reserve w-100">Reservation</a>
+          </ul>
+        </div>
+      </div>
+      <!-- Reservation button (right) -->
+      <a href="https://wa.me/085738657863?text=Halo%20NVN%20Urban%20Cafe,%20saya%20ingin%20melakukan%20reservasi." class="btn btn-reserve ms-lg-3 mt-3 mt-lg-0 d-none d-lg-inline-block">Reservation</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+ <section id="home" class="hero-section">
+  
+  <!-- BACKGROUND SLIDESHOW (BOOTSTRAP CAROUSEL) -->
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active">
+        <img src="img/2025_12_14_19_43_IMG_3748.jpg" class="d-block w-100 hero-bg" alt="bg1">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/2025_12_14_19_35_IMG_3735.jpg" class="d-block w-100 hero-bg" alt="bg2">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/WhatsApp Image 2025-12-16 at 16.33.15.jpeg" class="d-block w-100 hero-bg" alt="bg3">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/WhatsApp Image 2025-12-16 at 16.33.16 (2).jpeg" class="d-block w-100 hero-bg" alt="bg4">
+      </div>
+
+    </div>
+  </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+  <!-- HERO CONTENT -->
+  <div class="hero-content text-center text-white">
+    <h1 class="hero-title">HALLO NVN WELLCOME</h1>
+    <p class="hero-text">
+      Cita rasa kopi dari biji pilihan dalam suasana industrial modern.
+    </p>
+    <a href="#about" class="btn-readmore mt-1">Read More</a>
+  </div>
+
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="about-content">
+      
+      <!-- KANAN: TEKS -->
+      <div class="about-text">
+        <h2 class="about-title mb-5">
+      <span class="about-black">ABOUT</span>
+      <span class=" about-brown">US</span>
+
+      </h2>
+        <p class="about-desc">
+          NVN Urban Cafe mulai beroperasi sejak Januari 2021 dan berlokasi di Jalan Tukad Balian No. 134, Denpasar.
+          Cafe ini hadir sebagai respon terhadap situasi pandemi, di mana coffee shop menjadi salah satu pilihan utama
+          masyarakat untuk melepas penat secara aman dan nyaman. Dirancang sebagai ruang berkumpul dengan nuansa modern,
+          NVN Urban Cafe mengusung konsep industrial minimalis yang sesuai dengan tren gaya hidup anak muda.
+        </p>
+
+        <div class="about-buttons">
+          <a 
+            href="https://drive.google.com/drive/folders/1AJajBMjbZnI6uDfAXMESdOZBJZJ0ZbAt?usp=sharing"
+            class="btn btn-brandbook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-solid fa-book-open"></i> Lihat Brandbook
+          </a>
+        </div>
+      </div>
+      <div class="about-slider">
+  <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="img/bb/SAMPUL 1.png" class="d-block w-100 about-img" alt="Foto 1">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 2.png" class="d-block w-100 about-img" alt="Foto 2">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 3.png" class="d-block w-100 about-img" alt="Foto 3">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 4.png" class="d-block w-100 about-img" alt="Foto 4">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 5.png" class="d-block w-100 about-img" alt="Foto 5">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 6.png" class="d-block w-100 about-img" alt="Foto 6">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 7.png" class="d-block w-100 about-img" alt="Foto 7">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 8.png" class="d-block w-100 about-img" alt="Foto 8">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 9.png" class="d-block w-100 about-img" alt="Foto 9">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 10.png" class="d-block w-100 about-img" alt="Foto 10">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 11.png" class="d-block w-100 about-img" alt="Foto 11">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 12.png" class="d-block w-100 about-img" alt="Foto 12">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 13.png" class="d-block w-100 about-img" alt="Foto 13">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 14.png" class="d-block w-100 about-img" alt="Foto 14">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 15.png" class="d-block w-100 about-img" alt="Foto 15">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 16.png" class="d-block w-100 about-img" alt="Foto 16">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bb/SAMPUL 17.png" class="d-block w-100 about-img" alt="Foto 17">
+      </div>
+    </div>
+
+    <!-- Kontrol kiri/kanan -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+<!-- ===== FACILITY SECTION ===== -->
+<section id="facility" class="facility-section">
+  <div class="container text-center">
+    <div class="row justify-content-center g-3">
+      
+      <!-- 1 -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="facility-card">
+          <i class="bi bi-wifi facility-icon"></i>
+          <p class="facility-name">Free & Fast Wi-Fi</p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="facility-card">
+          <i class="bi bi-car-front facility-icon"></i>
+          <p class="facility-name">Parking Area</p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="facility-card">
+         <i class="bi bi-easel facility-icon"></i>
+          <p class="facility-name">Proyektor, Screen, Mic & Sound</p>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="facility-card">
+          <i class="bi bi-music-note-beamed facility-icon"></i>
+          <p class="facility-name">Live Music</p>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="facility-card">
+          <i class="bi bi-house-door facility-icon"></i>
+          <p class="facility-name">Indoor & Outdoor Space</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="our-menu">
+  <div class="container text-center">
+   <h2 class="section-title mb-5">
+    <span class="menu-brown">OUR</span>
+    <span class="menu-black">MENU</span>
+    </h2>
+
+    <!-- Tombol kategori -->
+    <div class="menu-buttons d-flex justify-content-center align-items-center gap-3 mb-4">
+  <button class="btn-signature">Our Signature</button>
+  
+  <!-- ubah button jadi link -->
+  <a href="menu.html" class="btn-allmenu">
+    See More <i class="fa-solid "></i>
+  </a>
+</div>
+
+    <!-- Kartu Menu -->
+    <div class="row justify-content-center g-4">
+      <!-- 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="menu-card">
+          <img src="img/nvnstyle.jpg" alt="NVN Style Latte" class="menu-img">
+          <div class="menu-info">
+            <h5 class="menu-title">NVN STYLE LATTE</h5>
+            <p class="menu-desc">rasanya seperti </p>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="menu-card">
+          <img src="img/sweet.jpg" alt="Sweet & Sour" class="menu-img">
+          <div class="menu-info">
+            <h5 class="menu-title">SWEET & SOUR</h5>
+            <p class="menu-desc">Matcha latte</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="menu-card">
+          <img src="img/pink.jpg" alt="Pink Sweats" class="menu-img">
+          <div class="menu-info">
+            <h5 class="menu-title">PINK SWEATS</h5>
+            <p class="menu-desc">Matcha latte</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="gallery" class="gallery-section">
+  <div class="container text-center">
+    <h2 class="gallery-title mb-4">
+    <span class="gallery-brown">OUR</span>
+    <span class="gallery-black">GALLERY</span>
+  </h2>
+
+       <div class="gallery-wrapper">
+  <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img/SnapInsta.to_476274733_18057072599505854_9178067258002773386_n.jpg" alt="Vibes" class="gallery-img scroll-animate">
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/SnapInsta.to_466085179_1079190277238042_7416954880797893504_n.jpg" alt="Event" class="gallery-img scroll-animate">
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/cs2.jpg" alt="Food" class="gallery-img scroll-animate">
+        </div>
+
+        <!-- ⭐ Tambahan gambar ke-4 -->
+        <div class="gallery-item">
+          <img src="img/SnapInsta.to_503997858_18070269452505854_6951958735792067218_n.jpg" alt="Gallery" class="gallery-img scroll-animate">
+        </div>
+
+      </div>
+    </div>
+
+     <!-- ⭐ VIDEO YOUTUBE DI BAWAH FOTO -->
+ <div class="youtube-preview">
+  <iframe 
+    width="100%" 
+    height="250"
+    src="https://www.youtube.com/embed/J4XrsmvxkLk"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+    <div class="gallery-buttons">
+  <a href="gallery.html" class="btn-see-more">See More</a>
+</div>
+</div>
+  </div>
+</section>
+
+
+
+<section id="review" class="review-section">
+  <div class="container text-center">
+     <h2 class="review-title text-center mb-5">
+      <span class="customers-text">CUSTOMER'S</span> <span class="review-text">REVIEW</span>
+    </h2>
+
+      
+    <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+      
+      <div class="carousel-inner">
+
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="review-card p-4">
+                <div class="stars">★★★★★</div>
+                <p>Suka banget sama vibes di sini. Adem, cozy, dan gak terlalu berisik. Cocok buat nongkrong santai atau kerja tipis-tipis.</p>
+                <div class="review-profile">
+                  <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A1" class="profile-img">
+                  <div>
+                    <h5>Astri Diah</h5>
+                    <small>Happy Customer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="review-card p-4">
+                <div class="stars">★★★★★</div>
+                <p>Tempat yang nyaman buat nongki, wfc maupun kumpul" bareng temen</p>
+                <div class="review-profile">
+                  <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A2" class="profile-img">
+                  <div>
+                    <h5>Denny Pramana</h5>
+                    <small>Happy Customer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="review-card p-4">
+                <div class="stars">★★★★★</div>
+                <p>Suka banget Sumpah suasanyanya nyaman bangett bikin tenang, cocok buat nugas apalagi buat orang yang introvert</p>
+                <div class="review-profile">
+                  <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A3" class="profile-img">
+                  <div>
+                    <h5>hany jim</h5>
+                    <small>Happy Customer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+
+            <!-- Card 4 -->
+            <div class="col-md-4">
+              <div class="review-card p-4">
+                <div class="stars">★★★★★</div>
+                <p>Tempatnya bersih dan cozy, live music</p>
+                <div class="review-profile">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A4" class="profile-img">
+                  <div>
+                    <h5>Henry Ricardo</h5>
+                    <small>Happy Customer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4">
+              <div class="review-card p-4">
+                <div class="stars">★★★★★</div>
+                <p>Aku ga paham sih ya soal perkopiannya hehe tp kalau makanannya enak .
+                Jadii kalian wajib kesini yaa , bantu aku nilai kopinya </p>
+                <div class="review-profile">
+                 <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A5" class="profile-img">
+                  <div>
+                    <h5>dinda tunjung</h5>
+                    <small>Happy Customer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-4">
+              <div class="review-card p-4">
+                <div class="stars">★★★★★</div>
+                <p>Parkirannya luas, tempatnya nyaman</p>
+                <div class="review-profile">
+                  <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A6" class="profile-img">
+                  <div>
+                    <h5>Arya</h5>
+                    <small>Happy Customer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+<br>
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators mt-4">
+        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1"></button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+
+      <!-- KIRI: FORM -->
+      <div class="col-lg-6">
+       <h2 class="contact-title mb-4">
+      <span class="contact-brown">CONTACT</span>
+      <span class="contact-black">US</span>
+      </h2>
+
+         <div class="contact-wrapper">
+
+          <div class="contact-card">
+            <div class="icon-box">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p>nvnurbancafe@gmail.com</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/085738657863" target="_blank" class="contact-card">
+            <div class="icon-box">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <div class="contact-text">
+              <h4>WhatsApp</h4>
+              <p>085738657863</p>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/nvnurbancafe" target="_blank" class="contact-card">
+            <div class="icon-box">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Instagram</h4>
+              <p>@nvnurbancafe</p>
+            </div>
+          </a>
+
+        </div> <!-- END contact-wrapper -->
+      </div>
+
+      <!-- KANAN: MAP -->
+      <div class="col-lg-6">
+        <div class="map-frame">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2788.8859691421267!2d115.24190451034481!3d-8.683908099058378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24054058794d7%3A0xeca7b5e8c7a6cf35!2sJl.%20Tukad%20Balian%20No.134%2C%20Renon%2C%20Denpasar%20Selatan%2C%20Kota%20Denpasar%2C%20Bali%2080227!5e0!3m2!1sid!2sid!4v1761283732267!5m2!1sid!2sid"
+            width="100%" height="400" style="border:0;" loading="lazy"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="footer-section py-4">
+  <div class="container text-center text-white">
+    <div class="row align-items-center">
+      <!-- Kiri -->
+      <div class="col-md-4 mb-3 mb-md-0 text-md-start">
+        <p class="footer-text">Open Everyday</p>
+      </div>
+
+      <!-- Tengah (Logo + Sosmed) -->
+      <div class="col-md-4 mb-3 mb-md-0 text-center">
+        <img src="img/NVN-LOGO-FIX-BANGET_page-0001-Photoroom.png" 
+             alt="NVN Urban Cafe" class="footer-logo mb-2">
+
+        <div class="footer-info d-flex justify-content-center align-items-center gap-3">
+          <a href="https://wa.me/085738657863" target="_blank" class="footer-icon-link">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/nvnurbancafe" target="_blank" class="footer-icon-link">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Kanan -->
+      <div class="col-md-4 text-md-end">
+        <p class="footer-text mb-0">Senin - Minggu</p>
+        <p class="footer-text mb-0">16.00 - 00.00 WITA</p>
+          <p id="open-status"></p> <!-- Status muncul di sini -->
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom mt-4">
+      <p class="mb-0">© 2025 Gung Adit. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
